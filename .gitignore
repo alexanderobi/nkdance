@@ -1,7 +1,8 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Gradle template
 .gradle
-/build/
+build/
+.idea/
+
+target/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -14,52 +15,20 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
-### macOS template
-*.DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must end with two \r
-Icon
+*.iml
+*.ipr
+*.iws
 
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-### Scala template
-*.class
+.DS_Store
 *.log
 
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
-
-# ENSIME specific
-.ensime_cache/
-.ensime
+# Eclipse stuff to ignore:
+.classpath
+.project
+.settings
+*/.gitignore
+*/.cache-main
+*/.cache-tests
+*/bin
+WebContent
