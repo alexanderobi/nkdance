@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.specs2:specs2-mock_2.12:3.8.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.specs2/specs2-mock_2.12/3.8.6/993730395f056e412ce3acd27a7fddb5570d7d28/specs2-mock_2.12-3.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.specs2/specs2-mock_2.12/3.8.6/445533ceae11647a2b22c724ae8a1af5234abc4d/specs2-mock_2.12-3.8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

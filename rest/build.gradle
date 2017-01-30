@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.akhikhl.gretty:gretty:+'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+apply plugin: 'war'
+apply plugin: 'org.akhikhl.gretty'
+
+war {
+    archiveName 'rest.war'
+}
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main.compileClasspath += configurations.provided
+    test.compileClasspath += configurations.provided
+    test.runtimeClasspath += configurations.provided
+}
+
+dependencies {
+
+    compile group: 'org.scalatra', name: 'scalatra_2.12', version: '2.5.0'
+    compile group: 'org.scalatra', name: 'scalatra-json_2.12', version: '2.5.0'
+    compile group: 'org.scalatra', name: 'scalatra-common_2.12', version: '2.5.0'
+    compile group: 'org.scalatra', name: 'scalatra-swagger_2.12', version: '2.5.0'
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.4.16'
+    compile group: 'co.blocke', name: 'scalajack_2.11', version: '4.1'
+
+    compile group: 'org.scalatra', name: 'scalatra-specs2_2.12', version: '2.5.0'
+
+    provided 'javax.servlet:javax.servlet-api:3.1.0'
+
+}
+
+import org.akhikhl.gretty.AppStartTask
+
+task('webAppRun', type: AppStartTask, dependsOn:'prepareInplaceWebApp') {
+    runWithMongoDb = true
+}

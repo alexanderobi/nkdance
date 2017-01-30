@@ -1,0 +1,23 @@
+products:
+   rest/src/main/scala/ScalatraBootstrap.scala -> rest/build/classes/main/ScalatraBootstrap.class
+   rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PingServlet.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/BaseServlet.class
+binary dependencies:
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.4.16/7402a9bcd06ee7e54c443f36560d9dfc92b1f64c/akka-actor_2.12-2.4.16.jar
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+source dependencies:
+   rest/src/main/scala/ScalatraBootstrap.scala -> rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala
+   rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala
+external dependencies:
+class names:
+   rest/src/main/scala/ScalatraBootstrap.scala -> ScalatraBootstrap
+   rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> com.nkdanceservices.rest.PingServlet
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> com.nkdanceservices.rest.utils.BaseServlet

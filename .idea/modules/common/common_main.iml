@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":common:main" external.linked.project.path="$MODULE_DIR$/../../../common" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="NKDanceServices" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../common/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../common/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../common/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../common/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../common/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-compiler:2.12.1" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb.scala:mongo-scala-driver_2.11:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.pauldijou:jwt-core_2.11:0.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: net.s_mach:concurrent_2.11:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang.modules:scala-xml_2.12:1.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb.scala:mongo-scala-bson_2.11:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-async:3.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pauldijou:jwt-core-impl_2.11:0.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.52" level="project" />
+    <orderEntry type="library" name="Gradle: net.s_mach:codetools_2.11:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-core:3.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:bson:3.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.52" level="project" />
+    <orderEntry type="library" name="Gradle: net.s_mach:codetools-core_2.11:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: net.s_mach:string_2.11:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.12.1" level="project" />
+  </component>
+</module>

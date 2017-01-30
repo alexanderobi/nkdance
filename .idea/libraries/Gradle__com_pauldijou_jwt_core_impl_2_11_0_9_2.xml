@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pauldijou:jwt-core-impl_2.11:0.9.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pauldijou/jwt-core-impl_2.11/0.9.2/719f286b6a340babf3c907220afd218fa13b414f/jwt-core-impl_2.11-0.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pauldijou/jwt-core-impl_2.11/0.9.2/e0a32b72b1b3f4d7003380345b09a18d161e57c5/jwt-core-impl_2.11-0.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

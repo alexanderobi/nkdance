@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.s_mach:concurrent_2.11:2.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.s_mach/concurrent_2.11/2.0.0/7170624bc2e3731d460a70756260fbdd20c89de5/concurrent_2.11-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.s_mach/concurrent_2.11/2.0.0/afa83ffaabf193efe5c2e902923993cb64508bc5/concurrent_2.11-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

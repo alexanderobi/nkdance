@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.specs2:specs2-codata_2.12:3.8.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.specs2/specs2-codata_2.12/3.8.6/b73785df832d8d397c1ab0c219b4658e2877c9eb/specs2-codata_2.12-3.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.specs2/specs2-codata_2.12/3.8.6/3f19ac4db0934c3426d8375b6eeadcfa354e5c5f/specs2-codata_2.12-3.8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

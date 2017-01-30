@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : NKDanceServices : rest.war">
+    <output-path>$PROJECT_DIR$/rest/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="rest.war">
+      <element id="artifact" artifact-name="Gradle : NKDanceServices : rest.war (exploded)" />
+    </root>
+  </artifact>
+</component>

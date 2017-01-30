@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.specs2:specs2-core_2.12:3.8.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.specs2/specs2-core_2.12/3.8.6/346a3dc497b8ee371aaf0e8b2d3e4b0be3380b30/specs2-core_2.12-3.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.specs2/specs2-core_2.12/3.8.6/bf91b9cd5f3b707e5ebbac3db981fc1c89fd2ef0/specs2-core_2.12-3.8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,7 @@
+dependencies {
+
+    compile group: 'com.pauldijou', name: 'jwt-core_2.11', version: '0.9.2'
+
+    compile group: 'net.s_mach', name: 'concurrent_2.11', version: '2.0.0'
+
+}

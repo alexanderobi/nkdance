@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scalatra:scalatra-swagger_2.12:2.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-swagger_2.12/2.5.0/80fff573c29f1e9391a54b76437edeb53314199c/scalatra-swagger_2.12-2.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-swagger_2.12/2.5.0/4271378f3a343053ad7ec2381599e87dc02234fe/scalatra-swagger_2.12-2.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
