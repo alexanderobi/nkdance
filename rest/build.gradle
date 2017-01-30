@@ -36,7 +36,6 @@ dependencies {
     compile group: 'org.scalatra', name: 'scalatra-common_2.12', version: '2.5.0'
     compile group: 'org.scalatra', name: 'scalatra-swagger_2.12', version: '2.5.0'
     compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.4.16'
-    compile group: 'co.blocke', name: 'scalajack_2.11', version: '4.1'
 
     compile group: 'org.scalatra', name: 'scalatra-specs2_2.12', version: '2.5.0'
 
