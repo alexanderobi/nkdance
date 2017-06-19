@@ -1,3 +1,3 @@
 rootProject.name = 'NKDanceServices'
 
-include 'rest', 'common'
+include 'rest', 'common', 'migration'

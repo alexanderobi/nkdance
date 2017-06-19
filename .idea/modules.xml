@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/migration/migration.iml" filepath="$PROJECT_DIR$/.idea/modules/migration/migration.iml" group="migration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/migration/migration_main.iml" filepath="$PROJECT_DIR$/.idea/modules/migration/migration_main.iml" group="migration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/migration/migration_test.iml" filepath="$PROJECT_DIR$/.idea/modules/migration/migration_test.iml" group="migration" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/rest.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/rest.iml" group="rest" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/rest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/rest_main.iml" group="rest" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/rest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/rest_test.iml" group="rest" />

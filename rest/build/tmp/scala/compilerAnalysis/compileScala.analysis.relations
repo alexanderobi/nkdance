@@ -1,23 +1,92 @@
 products:
    rest/src/main/scala/ScalatraBootstrap.scala -> rest/build/classes/main/ScalatraBootstrap.class
    rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PingServlet.class
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PagedPost$.class
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PagedPost.class
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PostServlet$$anon$1.class
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PostServlet$$anon$2.class
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PostServlet$$anon$3.class
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/PostServlet.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/APIUtils$.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/APIUtils.class
    rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/BaseServlet.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/Json.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/LoggingSupport.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/MetaTrait.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/meta$.class
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> rest/build/classes/main/com/nkdanceservices/rest/utils/meta.class
 binary dependencies:
    rest/src/main/scala/ScalatraBootstrap.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
    rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.4.16/7402a9bcd06ee7e54c443f36560d9dfc92b1f64c/akka-actor_2.12-2.4.16.jar
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/com.typesafe.slick/slick_2.12/3.2.0-M2/5798f1998ff934499ad345172aedfb96f7547cc1/slick_2.12-3.2.0-M2.jar
+   rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.0/f533aa6ea13e443b50e639d070986c42d03efc35/config-1.3.0.jar
    rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
    rest/src/main/scala/ScalatraBootstrap.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
    rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
    rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.4.16/7402a9bcd06ee7e54c443f36560d9dfc92b1f64c/akka-actor_2.12-2.4.16.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/com.typesafe.slick/slick_2.12/3.2.0-M2/5798f1998ff934499ad345172aedfb96f7547cc1/slick_2.12-3.2.0-M2.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.json4s/json4s-core_2.12/3.5.0/b6f38a8dafcfe23c22d83c6dd3001b3ca97f0a1f/json4s-core_2.12-3.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-json_2.12/2.5.0/c5848795e46ad3f324f8d036bb6d2a69305ca71a/scalatra-json_2.12-2.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
    rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
    rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> /Users/alexanderobi/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.json4s/json4s-core_2.12/3.5.0/b6f38a8dafcfe23c22d83c6dd3001b3ca97f0a1f/json4s-core_2.12-3.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.json4s/json4s-ext_2.12/3.5.0/caa0c010ab3bc382e777b443498a4b1ebc37778b/json4s-ext_2.12-3.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-json_2.12/2.5.0/c5848795e46ad3f324f8d036bb6d2a69305ca71a/scalatra-json_2.12-2.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/a953dacb4d929786a50bcdf67f966a6d1a8ff740/scalatra_2.12-2.5.0.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/a1c83373863cec7ae8d89dc1c5722d8cb6ec0309/slf4j-api-1.7.22.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> /Users/alexanderobi/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
 source dependencies:
    rest/src/main/scala/ScalatraBootstrap.scala -> rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala
+   rest/src/main/scala/ScalatraBootstrap.scala -> rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala
    rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala
+   rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala
 external dependencies:
+   rest/src/main/scala/ScalatraBootstrap.scala -> com.nkdanceservices.common.utils.ConfigUtil
+   rest/src/main/scala/ScalatraBootstrap.scala -> com.nkdanceservices.common.utils.ConfigUtil$
+   rest/src/main/scala/ScalatraBootstrap.scala -> com.nkdanceservices.common.utils.InitDB
+   rest/src/main/scala/ScalatraBootstrap.scala -> com.nkdanceservices.common.utils.InitDB$
+   rest/src/main/scala/ScalatraBootstrap.scala -> com.nkdanceservices.common.utils.SQLConnection
+   rest/src/main/scala/ScalatraBootstrap.scala -> com.nkdanceservices.common.utils.SQLConnection$
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.common.Post
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.common.Post$
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.common.Posts
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.common.Posts$
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.common.utils.PostgresExtension
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.common.utils.PostgresExtension$
 class names:
    rest/src/main/scala/ScalatraBootstrap.scala -> ScalatraBootstrap
    rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala -> com.nkdanceservices.rest.PingServlet
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.rest.PagedPost
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.rest.PagedPost$
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.rest.PostServlet
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.rest.PostServlet$$anon$1
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.rest.PostServlet$$anon$2
+   rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala -> com.nkdanceservices.rest.PostServlet$$anon$3
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> com.nkdanceservices.rest.utils.APIUtils
+   rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala -> com.nkdanceservices.rest.utils.APIUtils$
    rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala -> com.nkdanceservices.rest.utils.BaseServlet
+   rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala -> com.nkdanceservices.rest.utils.Json
+   rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala -> com.nkdanceservices.rest.utils.LoggingSupport
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> com.nkdanceservices.rest.utils.MetaTrait
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> com.nkdanceservices.rest.utils.meta
+   rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala -> com.nkdanceservices.rest.utils.meta$

@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6431b172-9634-40fb-b40c-710c0523c275" name="Default" comment="" />
+    <list default="true" id="6431b172-9634-40fb-b40c-710c0523c275" name="Default" comment="add common object">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/resources/db/migration/test.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/resources/db/migration/v1__schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Authors.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Posts.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/InitDB.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/PostgresExtension.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/SQLConnection.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/SetupDB.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migration/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migration/db_setup.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migration/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/resources/application.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__co_blocke_scalajack_2_11_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_bson_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongodb_driver_async_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_mongodb_driver_core_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_scala_mongo_scala_bson_2_11_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mongodb_scala_mongo_scala_driver_2_11_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Post.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/scala.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/HasCollection.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/JFormat.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/MongoUtil.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/Serialize.scala" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___NKDanceServices___rest_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___NKDanceServices___rest_war__exploded_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/rest/rest_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/rest/rest_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/rest/rest_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/rest/rest_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/build.gradle" afterPath="$PROJECT_DIR$/common/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/common.scala" afterPath="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/common.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/build.gradle" afterPath="$PROJECT_DIR$/rest/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterPath="$PROJECT_DIR$/rest/build/tmp/scala/compilerAnalysis/compileScala.analysis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterPath="$PROJECT_DIR$/rest/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala" afterPath="$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala" afterPath="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -9,6 +63,8 @@
     <ignored path="$PROJECT_DIR$/rest/build/" />
     <ignored path="$PROJECT_DIR$/common/.gradle/" />
     <ignored path="$PROJECT_DIR$/common/build/" />
+    <ignored path="$PROJECT_DIR$/migration/.gradle/" />
+    <ignored path="$PROJECT_DIR$/migration/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +74,38 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="nkdance" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="nkdance" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -45,38 +133,6 @@
                 <option name="myItemId" value="NKDanceServices" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value=":rest" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
-            </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="NKDanceServices" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="NKDanceServices" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="NKDanceServices" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
             </PATH>
           </tree_state>
         </projects_view>
@@ -84,88 +140,22 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scala.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/scala.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Author.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Post.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Post.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pretty</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -200,6 +190,10 @@
               <ExternalProjectPojo>
                 <option name="name" value="NKDanceServices" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":migration" />
+                <option name="path" value="$PROJECT_DIR$/migration" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -291,11 +285,6 @@
                 <option name="name" value="farmStart" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Stops the local MongoDb instance" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="stopMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'NKDanceServices'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
@@ -376,6 +365,16 @@
                 <option name="name" value="tomcatRunWar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Baselines an existing database, excluding all migrations up to and including baselineVersion." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="flywayBaseline" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Migrates the schema to the latest version." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="flywayMigrate" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Starts web-app on WAR-file, in interactive mode." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="appRunWar" />
@@ -426,11 +425,6 @@
                 <option name="name" value="compileScala" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Starts a local MongoDb instance" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="startMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Starts web-app inplace, in debug and interactive mode." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="appRunDebug" />
@@ -464,6 +458,11 @@
                 <option name="description" value="Starts web-app on WAR-file, in debug mode (stopped by 'tomcatStop')." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tomcatStartWarDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prints the details and status information about all the migrations." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="flywayInfo" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Starts web-app inplace, in interactive mode." />
@@ -511,6 +510,11 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Drops all objects in the configured schemas." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="flywayClean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Starts web-app on WAR-file, in interactive mode." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jettyRunWar" />
@@ -551,9 +555,9 @@
                 <option name="name" value="farmRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Starts a local MongoDb instance which will stop when the build process completes" />
+                <option name="description" value="Repairs the Flyway metadata table." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="startManagedMongoDb" />
+                <option name="name" value="flywayRepair" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Starts web-app on WAR-file, in debug mode (stopped by 'jettyStop')." />
@@ -599,6 +603,11 @@
                 <option name="description" value="Compiles the test Scala source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileTestScala" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Validate applied migrations against resolved ones (on the filesystem or classpath) to detect accidental changes that may prevent the schema(s) from being recreated exactly. Validation fails if differences in migration names, types or checksums are found, versions have been applied that aren&quot;t resolved locally anymore or versions have been resolved that haven&quot;t been applied yet" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="flywayValidate" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
@@ -697,11 +706,6 @@
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Starts a local MongoDb instance which will stop when the build process completes" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
-                <option name="name" value="startManagedMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
                 <option name="name" value="jar" />
@@ -752,11 +756,6 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Stops the local MongoDb instance" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
-                <option name="name" value="stopMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
                 <option name="name" value="assemble" />
@@ -802,13 +801,179 @@
                 <option name="name" value="compileScala" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Starts a local MongoDb instance" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
-                <option name="name" value="startMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':common'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/migration">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':migration'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':migration'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':migration'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prints the details and status information about all the migrations." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="flywayInfo" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repairs the Flyway metadata table." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="flywayRepair" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':migration'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':migration'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Baselines an existing database, excluding all migrations up to and including baselineVersion." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="flywayBaseline" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Migrates the schema to the latest version." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="flywayMigrate" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Scaladoc for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="scaladoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Scala source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="compileTestScala" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Validate applied migrations against resolved ones (on the filesystem or classpath) to detect accidental changes that may prevent the schema(s) from being recreated exactly. Validation fails if differences in migration names, types or checksums are found, versions have been applied that aren&quot;t resolved locally anymore or versions have been resolved that haven&quot;t been applied yet" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="flywayValidate" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':migration'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':migration'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Drops all objects in the configured schemas." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="flywayClean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Scala source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
+                <option name="name" value="compileScala" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':migration'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/migration" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -957,11 +1122,6 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Stops the local MongoDb instance" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rest" />
-                <option name="name" value="stopMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':rest'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rest" />
                 <option name="name" value="dependencies" />
@@ -1055,11 +1215,6 @@
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rest" />
                 <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Starts a local MongoDb instance which will stop when the build process completes" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rest" />
-                <option name="name" value="startManagedMongoDb" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Starts web-app inplace, in interactive mode." />
@@ -1242,11 +1397,6 @@
                 <option name="name" value="prepareInplaceWebAppClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Starts a local MongoDb instance" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rest" />
-                <option name="name" value="startMongoDb" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':rest'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rest" />
                 <option name="name" value="properties" />
@@ -1258,7 +1408,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5943087640000" />
+        <entry key="$PROJECT_DIR$" value="7434848314000" />
         <entry key="$PROJECT_DIR$/../bluetooth-readers-react-native/android" value="1477081564000" />
         <entry key="$PROJECT_DIR$/../smartcosmos-stock" value="8863877466000" />
       </map>
@@ -1273,20 +1423,6 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sourcemuse.gradle.plugin/gradle-mongo-plugin/0.14.0/7e6d1d2acbddde0f660c66a916e5096dec92497b/gradle-mongo-plugin-0.14.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.2.2/654b381c444d22e095363036767a52de1fda3ab0/mongo-java-driver-3.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.flapdoodle.embed/de.flapdoodle.embed.mongo/1.50.1/58199c4960d21b611d45a26e070488827194f9b0/de.flapdoodle.embed.mongo-1.50.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.flapdoodle.embed/de.flapdoodle.embed.process/1.50.1/f6c439a5f807f4af18419f9fcc767dfef4aa6811/de.flapdoodle.embed.process-1.50.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.0.0/9b3a11c613ec3fd3440af4103b12c3de82d38b6e/jna-4.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.0.0/deb6bf66918989b50209b8c9aaf3b2561af7f011/jna-platform-4.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.3/613a08bc72e2e9a43c9f87b9ff8352b47e18e3ae/commons-compress-1.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.10/5b338f206827d88acd890739f400a9b7664e5984/slf4j-api-1.7.10.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1294,21 +1430,23 @@
                   <entry key="$PROJECT_DIR$/common">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/common" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/migration">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sourcemuse.gradle.plugin/gradle-mongo-plugin/0.14.0/7e6d1d2acbddde0f660c66a916e5096dec92497b/gradle-mongo-plugin-0.14.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.2.2/654b381c444d22e095363036767a52de1fda3ab0/mongo-java-driver-3.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.flapdoodle.embed/de.flapdoodle.embed.mongo/1.50.1/58199c4960d21b611d45a26e070488827194f9b0/de.flapdoodle.embed.mongo-1.50.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.flapdoodle.embed/de.flapdoodle.embed.process/1.50.1/f6c439a5f807f4af18419f9fcc767dfef4aa6811/de.flapdoodle.embed.process-1.50.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.0.0/9b3a11c613ec3fd3440af4103b12c3de82d38b6e/jna-4.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.0.0/deb6bf66918989b50209b8c9aaf3b2561af7f011/jna-platform-4.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.3/613a08bc72e2e9a43c9f87b9ff8352b47e18e3ae/commons-compress-1.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.10/5b338f206827d88acd890739f400a9b7664e5984/slf4j-api-1.7.10.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1212.jre7/b47f4db2eedb47e03cff3876d8a82415b711354c/postgresql-9.4.1212.jre7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1212.jre7/7101612950488be0ff6882bcc27aa0f0a4c202dd/postgresql-9.4.1212.jre7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.boxfuse.client/flyway-release/4.1.0/8c31fa502ac2ee2a046837018be8ac30d7504ba3/flyway-release-4.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.flywaydb/flyway-core/4.1.0/883355a071f8df651bc2933136358526f9c64009/flyway-core-4.1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.flywaydb/flyway-core/4.1.0/b1ea4b01f3ca1d1cd1d85aa679d107cf83bf22f5/flyway-core-4.1.0.jar" />
                           </list>
                         </option>
-                        <option name="path" value="$PROJECT_DIR$/common" />
+                        <option name="path" value="$PROJECT_DIR$/migration" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1317,20 +1455,10 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sourcemuse.gradle.plugin/gradle-mongo-plugin/0.14.0/7e6d1d2acbddde0f660c66a916e5096dec92497b/gradle-mongo-plugin-0.14.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.2.2/654b381c444d22e095363036767a52de1fda3ab0/mongo-java-driver-3.2.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.flapdoodle.embed/de.flapdoodle.embed.mongo/1.50.1/58199c4960d21b611d45a26e070488827194f9b0/de.flapdoodle.embed.mongo-1.50.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.flapdoodle.embed/de.flapdoodle.embed.process/1.50.1/f6c439a5f807f4af18419f9fcc767dfef4aa6811/de.flapdoodle.embed.process-1.50.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.0.0/9b3a11c613ec3fd3440af4103b12c3de82d38b6e/jna-4.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.0.0/deb6bf66918989b50209b8c9aaf3b2561af7f011/jna-platform-4.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.3/613a08bc72e2e9a43c9f87b9ff8352b47e18e3ae/commons-compress-1.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.10/5b338f206827d88acd890739f400a9b7664e5984/slf4j-api-1.7.10.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty/1.4.0/c9b5d0510e69ed02fd9a4cddd5b6617977af35af/gretty-1.4.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty/1.4.0/40a9512f335da00742ef67820ec9d59074545da6/gretty-1.4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/1.4.0/3a18c6a31d519c7dd7e21257ffc37ab934ed5c97/gretty-core-1.4.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/1.4.0/27b02e4715ba11b73098c7ed8f3457975536624e/gretty-core-1.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty/1.4.1/30cc7e821316f4ccb92c67a05c8effd112ef03b9/gretty-1.4.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty/1.4.1/27d003d53495f4490ad2d87bb9645b3a9d1317b2/gretty-1.4.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/1.4.1/8573f75846cc7110cc4dd868fa8959341c10fb98/gretty-core-1.4.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/1.4.1/dc7a5b0877788c3eff93df3cc705d826f81c1165/gretty-core-1.4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.2.3.RELEASE/4989db061faa7fb3e787ce05ebe3db3c02bc2ce4/spring-boot-loader-tools-1.2.3.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.2.3.RELEASE/b3d6ae6c387652f5a5b0b409ebe4ef671030e2e3/spring-boot-loader-tools-1.2.3.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-dependency-tools/1.2.3.RELEASE/433281f6ee04c66125e785d3b2b903fad18f4e2f/spring-boot-dependency-tools-1.2.3.RELEASE-sources.jar" />
@@ -1345,6 +1473,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.10/2427d5eaf4011f855a95bd523febda041728393b/commons-configuration-1.10-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.10/2b36e4adfb66d966c5aef2d73deb6be716389dc9/commons-configuration-1.10.jar" />
                             <option value="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" />
                             <option value="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.servicemix.bundles/org.apache.servicemix.bundles.bcprov-jdk16/1.46_3/7dd02909524647efc021ae80c0c1fe57cdf8c896/org.apache.servicemix.bundles.bcprov-jdk16-1.46_3-sources.jar" />
@@ -1533,17 +1662,51 @@
         <option value="$PROJECT_DIR$/rest/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/PingServlet.scala" />
         <option value="$PROJECT_DIR$/rest/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala" />
-        <option value="$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala" />
         <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala" />
-        <option value="$PROJECT_DIR$/rest/build.gradle" />
         <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author/Author.scala" />
-        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author.scala" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/common/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Post.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/MongoUtils.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/scala.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/hasCollection.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/JsonFormat.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/Serialize.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/PGSQLUtils.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/ConfigUtil.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/PostgreSQLUtil.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Post.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/PostgresDriverUtil.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/SQLConnection.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/db/migration/v1__authors.sql" />
+        <option value="$PROJECT_DIR$/common/build.gradle" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/db/migration/v1__schema.sql" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/db/migration/test.sql" />
+        <option value="$PROJECT_DIR$/db_setup.sh" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/migration/db_setup.sh" />
+        <option value="$PROJECT_DIR$/migration/build.gradle" />
+        <option value="$PROJECT_DIR$/migration/src/main/resources/db/migration/v2__schema.sql" />
+        <option value="$PROJECT_DIR$/migration/src/main/scala/db/migration/v1__schema.scala" />
+        <option value="$PROJECT_DIR$/migration/gradle.properties" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/JsonSupport.scala" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala" />
+        <option value="$PROJECT_DIR$/rest/build.gradle" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/common.scala" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/reference.conf" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/InitDB.scala" />
+        <option value="$PROJECT_DIR$/rest/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/PostgresExtension.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Posts.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Authors.scala" />
+        <option value="$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/SetupDB.scala" />
+        <option value="$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala" />
       </list>
     </option>
   </component>
@@ -1554,10 +1717,28 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1413" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1589,8 +1770,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1602,13 +1783,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v4.5.0/bin/node" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rest/src/main/resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/migration/src/main/resources/migration/db" />
+      <recent name="$PROJECT_DIR$/migration" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/migration/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/migration/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/rest/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -2270,7 +2459,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1485781233072" />
+    <option name="lastUpdateTimestamp" value="1487260430223" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -2287,47 +2476,126 @@
       <updated>1485545223266</updated>
       <workItem from="1485545226855" duration="3696000" />
       <workItem from="1485583257927" duration="9901000" />
-      <workItem from="1485780423055" duration="1359000" />
+      <workItem from="1485780423055" duration="2598000" />
+      <workItem from="1485791090971" duration="6151000" />
+      <workItem from="1486237048552" duration="597000" />
+      <workItem from="1486403012149" duration="65000" />
+      <workItem from="1486659068132" duration="22642000" />
+      <workItem from="1486747103973" duration="42791000" />
+      <workItem from="1487190424264" duration="3752000" />
+      <workItem from="1487195776896" duration="4012000" />
+      <workItem from="1497888128473" duration="340000" />
     </task>
+    <task id="LOCAL-00001" summary="adding author collection">
+      <created>1485796691346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796691346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding post collection">
+      <created>1485796713385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796713385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add common object">
+      <created>1485796744995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796744995</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add config util">
+      <created>1485796798992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796798992</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add has collection trait">
+      <created>1485796819829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796819829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add joda formats">
+      <created>1485796838581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796838581</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add mongo utils">
+      <created>1485796859303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796859303</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add serialization util">
+      <created>1485796882907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796882907</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update build.gradle file&#10;">
+      <created>1485796920242</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796920242</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update build gradle file">
+      <created>1485796954411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1485796954411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14956000" />
+    <option name="totallyTimeSpent" value="96545000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="2560" height="1413" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19454959" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0969023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19454959" sideWeight="0.49713877" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21244635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24424146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.114307344" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2338,6 +2606,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding author collection" />
+    <MESSAGE value="adding post collection" />
+    <MESSAGE value="add common object" />
+    <MESSAGE value="add config util" />
+    <MESSAGE value="add has collection trait" />
+    <MESSAGE value="add joda formats" />
+    <MESSAGE value="add mongo utils" />
+    <MESSAGE value="add serialization util" />
+    <MESSAGE value="update build.gradle file&#10;" />
+    <MESSAGE value="update build gradle file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update build gradle file" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -2347,145 +2628,317 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.slick/slick_2.12/3.2.0-M2/9833dac08bd91f3992a76f4da7f19be895f157b2/slick_2.12-3.2.0-M2-sources.jar!/slick/basic/BasicProfile.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="1008">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/scala.scala">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.slick/slick_2.12/3.2.0-M2/9833dac08bd91f3992a76f4da7f19be895f157b2/slick_2.12-3.2.0-M2-sources.jar!/slick/jdbc/JdbcBackend.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="271" column="74" lean-forward="true" selection-start-line="271" selection-start-column="74" selection-end-line="271" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author.scala">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.slick/slick_2.12/3.2.0-M2/9833dac08bd91f3992a76f4da7f19be895f157b2/slick_2.12-3.2.0-M2-sources.jar!/slick/jdbc/JdbcActionComponent.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Post.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/rest.iml" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.4.11/adbfad8ff5c8496ea8b01b41f037ab867901ff4d/akka-actor_2.11-2.4.11-sources.jar!/akka/actor/ActorSystem.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="99" column="6" lean-forward="false" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="89" lean-forward="true" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="-3797">
+          <caret line="439" column="36" lean-forward="true" selection-start-line="439" selection-start-column="36" selection-end-line="439" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/PingServlet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala">
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/LoggingSupport.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="224">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/APIUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-json_2.12/2.5.0/bed142d7aacd665bd4f877e8214bb9bc67820a6d/scalatra-json_2.12-2.5.0-sources.jar!/org/scalatra/json/JsonSupport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra_2.12/2.5.0/cd53983274c26c7ed1c355aa83f480cd3dde77ce/scalatra_2.12-2.5.0-sources.jar!/org/scalatra/ScalatraBase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="87" column="6" lean-forward="false" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-json_2.12/2.5.0/bed142d7aacd665bd4f877e8214bb9bc67820a6d/scalatra-json_2.12-2.5.0-sources.jar!/org/scalatra/json/JValueResult.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalatra/scalatra-json_2.12/2.5.0/bed142d7aacd665bd4f877e8214bb9bc67820a6d/scalatra-json_2.12-2.5.0-sources.jar!/org/scalatra/json/Jackson.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="83" lean-forward="false" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="391">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/Json.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0d095ef6-eebf-490d-944c-6c430dc2a028/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a5518b9-32bb-4e1a-bdac-c78cfba9fa00/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/package.scala" />
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/BaseServlet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/utils/MetaTrait.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2632">
+          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/common.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/scala.scala">
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/reference.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="448">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Author.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.AUTHORS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common.iml">
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/db/migration/test.sql">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/db/migration/v2__schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.slick/slick_2.12/3.2.0-M2/9833dac08bd91f3992a76f4da7f19be895f157b2/slick_2.12-3.2.0-M2-sources.jar!/slick/sql/SqlProfile.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/25088b0c29e5f4547dabc148a22af949d1d9ca8c/scala-library-2.12.1-sources.jar!/scala/collection/TraversableLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="142" column="6" lean-forward="false" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.AUTHORS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.AUTHORS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/db/migration/v1__schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -2493,40 +2946,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/build.gradle">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tminglei/slick-pg_json4s_2.12/0.15.0-M4/eeec5e7d39aaa215dcbd1e88465798a7bee00861/slick-pg_json4s_2.12-0.15.0-M4-sources.jar!/com/github/tminglei/slickpg/PgJson4sSupport.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.AUTHORS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/263e343/0d095ef6-eebf-490d-944c-6c430dc2a028/nkdance.nkdance.POSTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/ScalatraBootstrap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/migration/src/main/scala/db/migration/v1__schema.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="168">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Post.scala">
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/SQLConnection.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/PostgresExtension.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="696">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="e#42#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest/src/main/scala/com/nkdanceservices/rest/PostServlet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Posts.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#36#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/Authors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/SetupDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="e#42#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/scala/com/nkdanceservices/common/utils/InitDB.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -35,7 +35,10 @@ dependencies {
     compile group: 'org.scalatra', name: 'scalatra-json_2.12', version: '2.5.0'
     compile group: 'org.scalatra', name: 'scalatra-common_2.12', version: '2.5.0'
     compile group: 'org.scalatra', name: 'scalatra-swagger_2.12', version: '2.5.0'
+    compile 'org.json4s:json4s-jackson_2.12:3.5.0'
     compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.4.16'
+
+    compile project(':common')
 
     compile group: 'org.scalatra', name: 'scalatra-specs2_2.12', version: '2.5.0'
 
@@ -46,5 +49,5 @@ dependencies {
 import org.akhikhl.gretty.AppStartTask
 
 task('webAppRun', type: AppStartTask, dependsOn:'prepareInplaceWebApp') {
-    runWithMongoDb = true
+
 }

@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="common_main" target="1.5" />
       <module name="common_test" target="1.5" />
+      <module name="migration_main" target="1.5" />
+      <module name="migration_test" target="1.5" />
       <module name="NKDanceServices_main" target="1.5" />
       <module name="NKDanceServices_test" target="1.5" />
       <module name="rest_main" target="1.5" />
